@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "echo-ai-api"
+version = "0.1.0"
+description = ""
+authors = ["Khiev Boraty <59820925+tykhiev@users.noreply.github.com>"]
+readme = "README.md"
+packages = [
+    {include = "src"}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pynest-api = "^0.3.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
